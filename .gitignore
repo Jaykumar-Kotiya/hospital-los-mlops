@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Data
+data/raw/
+data/processed/*.npy
+data/processed/*.pkl
+
+# Models
+models/*.joblib
+models/*.bst
+
+# Reports (keep figures if needed)
+reports/*.json
+reports/*.csv
+
+# OS
+.DS_Store
+
+# Do NOT commit raw/processed datasets
+data/hospital_los_raw.csv
+data/processed/hospital_los_clean.csv
+
+# Do NOT commit model artifacts
+models/*.json
+models/*.joblib
+models/*.bst
+
+# Do NOT commit run artifacts
+artifacts/*.json
+
+
