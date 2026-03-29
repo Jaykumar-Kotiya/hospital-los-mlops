@@ -46,7 +46,7 @@ def find_first_existing(paths):
 
 
 # ---------- Header ----------
-st.title("🏥 Hospital Length of Stay (LOS) Predictor")
+st.title("Hospital Length of Stay (LOS) Predictor")
 st.caption(
     "Enterprise demo: XGBoost regression • cost-safe MLOps workflow • SHAP explainability • local UI"
 )
@@ -76,7 +76,7 @@ else:
 st.divider()
 
 # ---------- Tabs ----------
-tab_predict, tab_explain, tab_docs = st.tabs(["🔮 Predict", "🧠 Explain (SHAP)", "📌 Project Notes"])
+tab_predict, tab_explain, tab_docs = st.tabs(["Predict", "Explain (SHAP)", "Project Notes"])
 
 # ======================
 # TAB: PREDICT
